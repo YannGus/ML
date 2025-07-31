@@ -1,1 +1,5 @@
-run this -> python -m scripts.run_pipeline
+## Run
+```bash
+pip install -r requirements.txt
+python -m scripts.run_pipeline
+```
