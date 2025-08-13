@@ -37,11 +37,9 @@ this by learning compact, semantically meaningful representations.
 
 **Key Contributions:**
 
-- Achieved an **18:1 compression ratio** on the MNIST dataset while maintaining high reconstruction fidelity.
-- Demonstrated that discrete latent codes retain sufficient semantic information for classification tasks, achieving *
-  *94.8% accuracy** with a lightweight classifier.
-- The compressed classifier model is **5.8× smaller** and **15× faster to train** compared to a traditional
-  convolutional neural network (CNN), while maintaining competitive performance.
+- Achieved an 18:1 compression ratio on MNIST while maintaining high reconstruction quality.
+- Identified that a codebook of 128 vectors provides the best balance between fidelity and efficiency for this dataset.
+- Demonstrated that the architecture effectively leverages recurring patterns in structured datasets for compression.
 
 **Applications:**
 
@@ -61,12 +59,9 @@ unified interface for both storage and inference.
 
 **Key Contributions:**
 
-- Showed that a simple classifier trained on discrete token sequences achieves **94.76% accuracy** on MNIST,
-  demonstrating the semantic richness of the compressed representations.
-- Highlighted the dual-purpose nature of neural compression: reducing redundancy while preserving task-relevant
-  information.
-- The token-based classifier is significantly more efficient, with **206k parameters** compared to 1.2M for a baseline
-  CNN, and requires only **8.6 seconds of training time** versus 128.5 seconds.
+- Showed that a simple classifier trained on token sequences achieves 94.76% accuracy on MNIST.
+- Reduced model size from 1.20M parameters (baseline CNN) to 206k parameters (~5.8× smaller).
+- Reduced training time from 128.5 seconds to 8.6 seconds (~15× faster) while retaining most of the baseline accuracy.
 
 **Implications:**
 
