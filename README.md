@@ -150,4 +150,4 @@ increasing computational costs.
 For discussions, collaborations, or questions about this research, please reach out via:
 
 - **Email:** [yannougus@gmail.com](mailto:yannougus@gmail.com)
-- **LinkedIn:** [Yann Guszkiewicz](https://www.linkedin.com/in/Yann-Guszkiewicz)
+- **LinkedIn:** [Yann Guszkiewicz]([https://www.linkedin.com/in/Yann-Guszkiewicz](https://www.linkedin.com/in/yann-guszkiewicz-32332b374/))
