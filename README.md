@@ -24,7 +24,7 @@ of certain LLMs.
 
 ## Research Projects
 
-### 1. [Neural Compression System (NCS)](NCS/)
+### 1. [Neural Compression System (NCS)](NCS/Neural%20Compression%20System/)
 
 *[Paper](NCS/Neural%20Compression%20System/Neural%20Compression%20System.pdf) | [Code](NCS/Neural%20Compression%20System/)
 **
@@ -48,7 +48,7 @@ this by learning compact, semantically meaningful representations.
 
 ---
 
-### 2. [Neural Compression System is All You Need](NCS/)
+### 2. [Neural Compression System is All You Need](NCS/Neural%20Compression%20System%20is%20all%20you%20need/)
 
 **[Paper](NCS/Neural%20Compression%20System%20is%20all%20you%20need/Neural%20Compression%20System%20is%20all%20you%20need.pdf) | [Code](NCS/Neural%20Compression%20System%20is%20all%20you%20need/)**
 
