@@ -46,7 +46,7 @@ enables scalable, real-time reasoning through distributed episodic memory.
 
 ---
 
-### [Flexible Neural Network with Structural Plasticity (FNNSP)](FNNSP/)
+### [Flexible Neural Network with Structural Plasticity (FNNSP)](FNNSP/Flexible%20Neural%20Network.pdf)
 
 [Paper](FNNSP/Flexible%20Neural%20Network.pdf) | [Code](FNNSP/flexible_network.py)
 
