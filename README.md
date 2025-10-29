@@ -24,7 +24,7 @@ of certain LLMs.
 
 ## Research Projects
 
-### 1. [SENSE: Shared Embeddings for Naturalistic Sensing and Episodic Memory](SENSE/SENSE%20Shared%20Embeddings%20for%20Naturalistic%20Sensing%20and%20Episodic%20Memory.pdf)
+### [SENSE: Shared Embeddings for Naturalistic Sensing and Episodic Memory](SENSE/SENSE%20Shared%20Embeddings%20for%20Naturalistic%20Sensing%20and%20Episodic%20Memory.pdf)
 
 **Objective:**
 SENSE proposes a novel architecture for multimodal AI systems, where vision, audio, and text modalities share a *
@@ -46,7 +46,32 @@ enables scalable, real-time reasoning through distributed episodic memory.
 
 ---
 
-### 2. [Neural Compression System (NCS)](NCS/Neural%20Compression%20System/)
+### [Flexible Neural Network with Structural Plasticity (FNNSP)](FNNSP/Flexible%20Neural%20Network.pdf)
+
+**Objective:**
+This project introduces a neural network capable of dynamically adapting its internal topology for multiple boolean classification tasks,
+inspired by biological structural plasticity. Instead of retraining all weights for new tasks, the network selectively activates,
+reconfigures, and specializes modular units for efficient transfer learning.
+
+**Key Contributions:**
+
+- Designed a **modular neural network** with worker modules controlled by a task-specific controller mask.
+- Implemented **structural plasticity**, allowing selective module activation, reconnection, and specialization based on task requirements.
+- Demonstrated **rapid adaptation** on MNIST and FashionMNIST binary tasks using a hybrid fine-tuning protocol, minimizing catastrophic forgetting.
+- Visualized **module specialization and correlation**, confirming efficient reuse and dynamic topology adjustment across tasks.
+
+**Results:**
+
+- Achieved competitive performance on all tasks (average accuracy ≈ 86.6%), with near-perfect accuracy on MNIST 2vs3.
+- Showed substantial topology reconfiguration between tasks, indicating effective structural plasticity and module reuse.
+
+**Implications:**
+- Supports fast transfer learning without full retraining.
+- Opens avenues for adaptive AI architectures capable of handling multiple tasks efficiently with minimal weight updates.
+
+---
+
+### [Neural Compression System (NCS)](NCS/Neural%20Compression%20System/)
 
 [Paper](NCS/Neural%20Compression%20System/Neural%20Compression%20System.pdf) | [Code](NCS/Neural%20Compression%20System/)
 
@@ -69,7 +94,7 @@ this by learning compact, semantically meaningful representations.
 
 ---
 
-### 3. [Neural Compression System is All You Need](NCS/Neural%20Compression%20System%20is%20all%20you%20need/)
+### [Neural Compression System is All You Need](NCS/Neural%20Compression%20System%20is%20all%20you%20need/)
 
 [Paper](NCS/Neural%20Compression%20System%20is%20all%20you%20need/Neural%20Compression%20System%20is%20all%20you%20need.pdf) | [Code](NCS/Neural%20Compression%20System%20is%20all%20you%20need/)
 
@@ -92,7 +117,7 @@ unified interface for both storage and inference.
 
 ---
 
-### 4. [Learning Rate Predictor Optimizer (LRPO)](LRPO/Learning%20Rate%20Predictor%20Optimizer.pdf)
+### [Learning Rate Predictor Optimizer (LRPO)](LRPO/Learning%20Rate%20Predictor%20Optimizer.pdf)
 
 **Objective:**
 LRPO introduces a novel approach to accelerate neural network training by predicting gradient descent trajectories and
@@ -116,7 +141,7 @@ increasing computational costs.
 
 ---
 
-### 5. [Cognitive Fingerprints: A Framework for Behavioral Prediction from Mathematical Reasoning Traces](CF/Cognitive%20Fingerprints%20A%20Framework%20for%20Behavioral%20Prediction%20from%20Mathematical%20Reasoning%20Traces.pdf)
+### [Cognitive Fingerprints: A Framework for Behavioral Prediction from Mathematical Reasoning Traces](CF/Cognitive%20Fingerprints%20A%20Framework%20for%20Behavioral%20Prediction%20from%20Mathematical%20Reasoning%20Traces.pdf)
 
 **Objective:**
 This project presents a deep learning framework for predicting an individual's unique problem-solving style, which is
@@ -142,7 +167,7 @@ population to then be rapidly personalized for a specific individual with limite
 
 ---
 
-### 6. [Neural Network Capacity from Task Difficulty](NNCTD/Neural%20Network%20Capacity%20from%20Task%20Difficulty.pdf)
+### [Neural Network Capacity from Task Difficulty](NNCTD/Neural%20Network%20Capacity%20from%20Task%20Difficulty.pdf)
 
 **Objective:**
 This work refines the Lambert W-based formula for estimating neural network capacity by incorporating **data quality**,
