@@ -46,7 +46,9 @@ enables scalable, real-time reasoning through distributed episodic memory.
 
 ---
 
-### [Flexible Neural Network with Structural Plasticity (FNNSP)](FNNSP/Flexible%20Neural%20Network.pdf)
+### [Flexible Neural Network with Structural Plasticity (FNNSP)](FNNSP/)
+
+[Paper](FNNSP/Flexible%20Neural%20Network.pdf) | [Code](FNNSP/flexible_network.py)
 
 **Objective:**
 This project introduces a neural network capable of dynamically adapting its internal topology for multiple boolean classification tasks,
