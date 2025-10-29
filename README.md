@@ -1,7 +1,7 @@
 # Research Projects in Neural Compression, Multimodal AI, and Optimization
 
-This repository contains my research work in **neural network compression**, **multimodal AI architectures**, and *
-*training optimization**, along with practical implementations in Python and PyTorch. Each project is documented with a
+This repository contains my research work in **neural network compression**, **multimodal AI architectures**, and
+**training optimization**, along with practical implementations in Python and PyTorch. Each project is documented with a
 research paper and accompanying code.
 
 ---
