@@ -24,6 +24,25 @@ of certain LLMs.
 
 ## Research Projects
 
+### [Photonic Optical Neural Network Inference Processor](PONNIP/Photonic_Optical_Neural_Network_Inference_Processor.pdf)
+[Paper](PONNIP/Photonic_Optical_Neural_Network_Inference_Processor.pdf) | [Code](PONNIP/latency_heatmap.py)
+**Objective:**
+This project presents a theoretical architecture for performing vector-matrix multiplication, the core of neural network inference, directly in the optical domain. It utilizes light intensity superposition for mathematical addition and programmable attenuation for scalar multiplication, bypassing traditional electronic arithmetic to overcome the von Neumann bottleneck and reduce resistive heating.
+
+**Key Contributions:**
+- Derived the underlying physical identities for optical addition and scalar multiplication from first principles using incoherent light sources.
+- Formalized a signed-weight encoding method using a differential (push-pull) channel pair to represent negative values with passive attenuators.
+- Demonstrated that the required non-linear activation function (ReLU) is an inherent byproduct of intensity photodetection, requiring zero additional energetic cost.
+- Proposed a multi-plane cascade architecture that assigns each layer its own static transmittance plane. This entirely removes the slow electro-optic settling time from the per-inference critical path after an initial one-time loading step.
+- Developed a closed-form latency model evaluating parallel illumination strategies, projecting sub-millisecond inference times (e.g., 256 µs) for a small embedded network using commercially available components like 20 kHz digital micromirror devices and 1 MHz photodiodes.
+
+**Target Domain & Implications:**
+- Identifies analog drift and error accumulation as the principal structural limitations of the approach.
+- Positions this photonic architecture specifically for small, low-power, embedded inference workloads (such as mobile robotics) rather than as a general-purpose substitute for large-scale data center GPUs.
+- Offers a promising, structurally distinct alternative for edge devices where the thermal and energy budget is a stricter binding constraint than raw arithmetic throughput.
+
+---
+
 ### [SENSE: Shared Embeddings for Naturalistic Sensing and Episodic Memory](SENSE/SENSE%20Shared%20Embeddings%20for%20Naturalistic%20Sensing%20and%20Episodic%20Memory.pdf)
 
 **Objective:**
