@@ -25,7 +25,9 @@ of certain LLMs.
 ## Research Projects
 
 ### [Photonic Optical Neural Network Inference Processor](PONNIP/Photonic_Optical_Neural_Network_Inference_Processor.pdf)
+
 [Paper](PONNIP/Photonic_Optical_Neural_Network_Inference_Processor.pdf) | [Code](PONNIP/latency_heatmap.py)
+
 **Objective:**
 This project presents a theoretical architecture for performing vector-matrix multiplication, the core of neural network inference, directly in the optical domain. It utilizes light intensity superposition for mathematical addition and programmable attenuation for scalar multiplication, bypassing traditional electronic arithmetic to overcome the von Neumann bottleneck and reduce resistive heating.
 
