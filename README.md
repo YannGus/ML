@@ -48,7 +48,7 @@ This project presents a theoretical architecture for performing vector-matrix mu
 ### [SENSE: Shared Embeddings for Naturalistic Sensing and Episodic Memory](SENSE/SENSE%20Shared%20Embeddings%20for%20Naturalistic%20Sensing%20and%20Episodic%20Memory.pdf)
 
 **Objective:**
-SENSE proposes a novel architecture for multimodal AI systems, where vision, audio, and text modalities share a *
+SENSE proposes a novel architecture for multimodal AI systems, where vision, audio, and text modalities share a
 *unified tokenizer** and embedding space. This design facilitates direct semantic alignment across modalities and
 enables scalable, real-time reasoning through distributed episodic memory.
 
