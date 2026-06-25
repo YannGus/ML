@@ -49,7 +49,7 @@ This project presents a theoretical architecture for performing vector-matrix mu
 
 **Objective:**
 SENSE proposes a novel architecture for multimodal AI systems, where vision, audio, and text modalities share a
-*unified tokenizer** and embedding space. This design facilitates direct semantic alignment across modalities and
+**unified tokenizer** and embedding space. This design facilitates direct semantic alignment across modalities and
 enables scalable, real-time reasoning through distributed episodic memory.
 
 **Key Contributions:**
