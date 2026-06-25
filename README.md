@@ -16,7 +16,7 @@ architectures, cross-modal representation learning, and algorithmic optimization
 
 ## Disclaimer
 
-I am only 16 years old and do not claim to be an expert in machine learning or AI. I share these projects purely out of
+I am only 17 years old and do not claim to be an expert in machine learning or AI. I share these projects purely out of
 personal curiosity and passion for research. As noted in each paper, some of this work has been done with the assistance
 of certain LLMs.
 
