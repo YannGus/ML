@@ -51,7 +51,7 @@ This project presents a theoretical architecture for performing vector-matrix mu
 A direct sequel to PONNIP, this project explores how to implement *in situ* training (backpropagation) directly on an incoherent, intensity-domain photonic accelerator. While dominant photonic training demonstrations rely on phase-stable coherent circuits (interferometer meshes), this research investigates how far learning can be pushed using only the simple, phase-insensitive primitives of passive attenuation and incoherent light superposition.
 
 **Key Contributions:**
-- Proved that a strictly weaker property than coherent reciprocity—namely, the direction-independence of a passive attenuator's transmittance—is sufficient to perform the matrix-transpose multiplication required by backpropagation, discarding the need for phase tracking.
+- Proved that a strictly weaker property than coherent reciprocity namely, the direction-independence of a passive attenuator's transmittance is sufficient to perform the matrix-transpose multiplication required by backpropagation, discarding the need for phase tracking.
 - Formulated an *in situ* backward-pass routine operating entirely within the intensity domain, maintaining the hardware simplicity and robustness of the underlying inference processor.
 - Demonstrated that the derivative of the non-linear ReLU activation function can be computed natively at the photodetectors, requiring zero additional energetic cost during the training phase.
 - Outlined a hardware routing mechanism that allows the same physical architecture to switch seamlessly between forward inference and backward error propagation.
