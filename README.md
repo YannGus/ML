@@ -9,7 +9,7 @@ research paper and accompanying code.
 ## Overview
 
 I am **Yann Guszkiewicz**, a high school student specializing in **mathematics, physics, and engineering sciences**,
-with a focus on **machine learning, neural compression, and embedded systems**. My research explores efficient AI
+with a focus on **deep learning, neural compression, and embedded systems**. My research explores efficient AI
 architectures, cross-modal representation learning, and algorithmic optimization for real-world applications.
 
 ---
