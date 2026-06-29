@@ -47,8 +47,6 @@ This project presents a theoretical architecture for performing vector-matrix mu
 
 ### [Photonic Optical Neural Network Training Processor (PONNTP)](/Photonic_Optical_Neural_Network_Training_Processor.pdf)
 
-[Paper](PONNTP/Photonic_Optical_Neural_Network_Training_Processor.pdf)
-
 **Objective:**
 A direct sequel to PONNIP, this project explores how to implement *in situ* training (backpropagation) directly on an incoherent, intensity-domain photonic accelerator. While dominant photonic training demonstrations rely on phase-stable coherent circuits (interferometer meshes), this research investigates how far learning can be pushed using only the simple, phase-insensitive primitives of passive attenuation and incoherent light superposition.
 
