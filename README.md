@@ -1,6 +1,6 @@
 # Research Projects in Neural Compression, Multimodal AI, and Optimization
 
-This repository contains my research work in **neural network compression**, **multimodal AI architectures**, and
+This repository contains my research work in **photonic computing**, **neural network compression**, **multimodal AI architectures**, and
 **training optimization**, along with practical implementations in Python and PyTorch. Each project is documented with a
 research paper and accompanying code.
 
@@ -42,6 +42,26 @@ This project presents a theoretical architecture for performing vector-matrix mu
 - Identifies analog drift and error accumulation as the principal structural limitations of the approach.
 - Positions this photonic architecture specifically for small, low-power, embedded inference workloads (such as mobile robotics) rather than as a general-purpose substitute for large-scale data center GPUs.
 - Offers a promising, structurally distinct alternative for edge devices where the thermal and energy budget is a stricter binding constraint than raw arithmetic throughput.
+
+---
+
+### [Photonic Optical Neural Network Training Processor (PONNTP)](/Photonic_Optical_Neural_Network_Training_Processor.pdf)
+
+[Paper](PONNTP/Photonic_Optical_Neural_Network_Training_Processor.pdf)
+
+**Objective:**
+A direct sequel to PONNIP, this project explores how to implement *in situ* training (backpropagation) directly on an incoherent, intensity-domain photonic accelerator. While dominant photonic training demonstrations rely on phase-stable coherent circuits (interferometer meshes), this research investigates how far learning can be pushed using only the simple, phase-insensitive primitives of passive attenuation and incoherent light superposition.
+
+**Key Contributions:**
+- Proved that a strictly weaker property than coherent reciprocity—namely, the direction-independence of a passive attenuator's transmittance—is sufficient to perform the matrix-transpose multiplication required by backpropagation, discarding the need for phase tracking.
+- Formulated an *in situ* backward-pass routine operating entirely within the intensity domain, maintaining the hardware simplicity and robustness of the underlying inference processor.
+- Demonstrated that the derivative of the non-linear ReLU activation function can be computed natively at the photodetectors, requiring zero additional energetic cost during the training phase.
+- Outlined a hardware routing mechanism that allows the same physical architecture to switch seamlessly between forward inference and backward error propagation.
+
+**Target Domain & Implications:**
+- Solves a major bottleneck in incoherent analog computing by providing a mathematically rigorous training framework without the overhead of interferometric stability.
+- Paired with PONNIP, it establishes a complete, self-contained photonic ecosystem capable of both low-latency inference and autonomous *in situ* learning.
+- Particularly valuable for edge devices and mobile robotics that require continuous real-time adaptation in environments where power constraints are tight.
 
 ---
 
